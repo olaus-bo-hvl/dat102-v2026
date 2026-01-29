@@ -16,7 +16,7 @@ public interface BagADT<T> {
 	 * 
 	 * @return The integer number of entries currently in the bag.
 	 */
-	int getCurrentSize();
+	int getNumberOfEntries();
 
 	/**
 	 * Sees whether this bag is empty.
